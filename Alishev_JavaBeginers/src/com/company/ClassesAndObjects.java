@@ -17,15 +17,16 @@ public class ClassesAndObjects {
         two.age = 50;
         two.sayHello();
         int years2 = two.cacl();
+        System.out.println("Пенсия " + two.name + " через " + years2 + " лет");
 
     }
 }
 
 class Person {
-    //
+    //Поля, свойства
     String name;
     int age;
-
+    //Действия, методы
     void sayHello () {
         System.out.println("Привет, меня зовут " + name + ", мне " + age + " лет");
     }
@@ -37,5 +38,9 @@ class Person {
 }
 
 class Test2 {
+
+}
+
+class Test3 {
 
 }
